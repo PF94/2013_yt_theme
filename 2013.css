@@ -282,6 +282,7 @@ body #footer-container {
     position: absolute;
     width: 640px !important;
     height: 360px !important;
+    left: 0px !important;
 }
 
 .ytp-chrome-bottom {
