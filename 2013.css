@@ -150,6 +150,43 @@
     box-sizing: border-box;
 }
 
+#yt-masthead #logo-container span.content-region {
+display: none;
+}
+
+a.yt-uix-button.yt-uix-button-epic-nav-item, button.yt-uix-button-epic-nav-item, .epic-nav-item {
+    color: #9c9c9c;
+    font-size: 11px !important;
+    font-weight: bold;
+}
+
+#masthead-appbar {
+display: none;
+}
+
+.exp-invert-logo a.yt-uix-button-epic-nav-item:hover, .exp-invert-logo a.yt-uix-button-epic-nav-item.selected, .exp-invert-logo a.yt-uix-button-epic-nav-item.yt-uix-button-toggled, .exp-invert-logo a.yt-uix-button-epic-nav-item.partially-selected, .exp-invert-logo a.yt-uix-button-epic-nav-item.partially-selected:hover, .exp-invert-logo button.yt-uix-button-epic-nav-item:hover, .exp-invert-logo button.yt-uix-button-epic-nav-item.selected, .exp-invert-logo button.yt-uix-button-epic-nav-item.yt-uix-button-toggled, .exp-invert-logo .epic-nav-item:hover, .exp-invert-logo .epic-nav-item.selected, .exp-invert-logo .epic-nav-item.yt-uix-button-toggled, .exp-invert-logo .epic-nav-item-heading, .exp-invert-logo .yt-gb-shelf-item-thumbtab.yt-gb-selected-shelf-tab::before {
+    border-color: #b00;
+}
+
+.channel-header-profile-image {
+    width: 100px;
+    height: 100px;
+    *border: 1px solid #ddd;
+    background-color: #e9ecee;
+    -moz-box-shadow: 0 1px 8px rgba(0,0,0,.4);
+    -ms-box-shadow: 0 1px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: 0 1px 8px rgba(0,0,0,.4);
+    box-shadow: 0 1px 8px rgba(0,0,0,.4);
+}
+
+#appbar-guide-button {
+    margin-left: -18px;
+}
+
+#yt-masthead .yt-masthead-logo-container {
+    margin-top: 2px;
+}
+
 .watch-title {
     font-weight: bold;
 }
@@ -172,6 +209,19 @@
     font-weight: bold;
 }
 
+.comment-author-text {
+    color: #438bc5;
+    font-weight: bold;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+a {
+    cursor: pointer;
+    color: #438bc5;
+    text-decoration: none;
+}
+
 #yt-masthead-creation-button {
     height: 27px;
     line-height: 27px;
@@ -180,15 +230,60 @@
     background-color: #f8f8f8;
     background-image: linear-gradient(to bottom, #fcfcfc 0, #f8f8f8 100%);
     width: 64px;
-    margin: 0 16px 2px 0;
+    margin: 0 10px 2px 0;
     border-width: 1px;
     border-style: solid;
     border-radius: 2px;
 }
 
+.watch-view-count {
+    font-size: 19px;
+    line-height: 24px;
+    color: #333;
+}
+
+.like-button-renderer-like-button::before {
+    background: no-repeat url(http://web.archive.org/web/20130605212512im_/http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflxq3CR8.png) -40px -628px;
+    background-size: auto;
+    width: 13px;
+    height: 13px;
+}
+
+.like-button-renderer-dislike-button::before {
+    background: no-repeat url(http://web.archive.org/web/20130605212512im_/http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflxq3CR8.png) -107px -27px;
+    background-size: auto;
+    width: 13px;
+    height: 13px;
+}
+
+
+.video-extras-sparkbar-likes {
+    float: left;
+    height: 2px;
+    background: #590;
+}
+
 #yt-masthead-creation-button::before {
     opacity: 1;
     height: 28px;
+    content: 'Upload';
+    background: none;
+    vertical-align: middle;
+    color: #333;
+    font-weight: bold;
+    margin: 0 13px 0px 0;
+}
+
+#yt-masthead-user .yt-masthead-user-icon {
+    border-radius: 0%;
+}
+
+#yt-masthead-notifications .yt-uix-button-icon-bell {
+    display: none;
+}
+
+#yt-masthead-notifications .sb-notif-on .yt-uix-button-content {
+    display: none;
 }
 
 #guide-container .guide-item.guide-item-selected {
@@ -232,6 +327,10 @@ body #footer-container {
     border-top: 1px solid #e2e2e2;
 }
 
+#masthead-search {
+    max-width: 555px;
+}
+
 #page.watch .content-alignment {
     margin-left: 225px;
 }
@@ -247,11 +346,44 @@ body #footer-container {
     font-size: 14px;
     font-weight: bold;
 }
+
+.ytp-gradient-bottom {
+    background: #1b1b1b;
+}
+
+.ytp-swatch-background-color {
+    background-color: #cc181e;
+}
+
+.ytp-scrubber-button {
+    height: 6px !important;
+    width: 6px;
+    transform: scale(1);
+    background: #aeaeae;
+    border: 5px solid #eaeaea;
+}
+
+.ytp-progress-list {
+    transform: scaleY(0.9);
+}
+
+/*.ytp-svg-fill {
+    fill: #757575;
+}*/
+.ytp-progress-list {
+    background: #444;
+}
+
+.ytp-exp-bigger-button .ytp-gradient-bottom {
+    height: 0px;
+    padding-top: 44px;
+}
 }
 
 @-moz-document url-prefix("insert.shitty.domain.here") {
-/* ASS BROKEN SHIT */
-
+/* INFO
+This code will make the sizing accurate. 
+But it will fuck up the player.*/
 #watch7-content {
     width: 640px
 }
