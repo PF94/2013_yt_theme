@@ -247,7 +247,9 @@ body #footer-container {
     font-size: 14px;
     font-weight: bold;
 }
+}
 
+@-moz-document url-prefix("insert.shitty.domain.here") {
 /* ASS BROKEN SHIT */
 
 #watch7-content {
