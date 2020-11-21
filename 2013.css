@@ -1,0 +1,290 @@
+@-moz-document domain("www.youtube.com") {
+.exp-invert-logo .resume-playback-progress-bar,
+.exp-invert-logo .yt-uix-button-subscribe-branded,
+.exp-invert-logo .yt-uix-button-subscribe-branded[disabled],
+.exp-invert-logo .yt-uix-button-subscribe-branded[disabled]:hover,
+.exp-invert-logo .yt-uix-button-subscribe-branded[disabled]:active,
+.exp-invert-logo .yt-uix-button-subscribe-branded[disabled]:focus,
+.exp-invert-logo .sb-notif-on .yt-uix-button-content,
+.exp-invert-logo .guide-item.guide-item-selected,
+.exp-invert-logo .guide-item.guide-item-selected:hover,
+.exp-invert-logo .guide-item.guide-item-selected .yt-deemphasized-text,
+.exp-invert-logo .guide-item.guide-item-selected:hover .yt-deemphasized-text {
+    background: #af2b26;
+}
+
+.exp-invert-logo #header::before,
+.exp-invert-logo .ypc-join-family-header .logo,
+.exp-invert-logo #footer-logo .footer-logo-icon,
+.exp-invert-logo #yt-masthead #logo-container .logo,
+.exp-invert-logo #masthead #logo-container,
+.exp-invert-logo .admin-masthead-logo a,
+.exp-invert-logo #yt-sidebar-styleguide-logo #logo {
+    background: no-repeat url(http://web.archive.org/web/20130606001029im_/http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflxq3CR8.png) 0 -488px;
+    background-size: auto;
+    width: 72px;
+    height: 30px;
+}
+
+.yt-subscription-button-subscriber-count-branded-horizontal,
+.yt-subscription-button-subscriber-count-branded-vertical {
+    padding: 0 6px;
+    height: 22px;
+    border: 1px solid #ccc;
+    color: #777;
+    font-size: 11px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.yt-subscription-button-subscriber-count-branded-horizontal,
+.yt-subscription-button-subscriber-count-unbranded-horizontal {
+    display: none;
+    position: relative;
+    margin-left: 6px;
+    background-color: #fafafa;
+    vertical-align: middle;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.exp-invert-logo li.guide-section h3,
+.exp-invert-logo li.guide-section h3 a {
+    color: #999;
+    font-weight: bold;
+}
+
+.yt-uix-button-subscribe-branded .yt-uix-button-icon-wrapper,
+.yt-uix-button-subscribed-branded.external .yt-uix-button-icon-wrapper {
+    position: relative;
+    top: -1px;
+    left: -1px;
+    width: 24px;
+    height: 22px;
+    max-height: 22px;
+    border: 1px solid #880904;
+    background: #a9382e;
+    text-align: center;
+    line-height: 22px;
+    -webkit-border-top-left-radius: 2px;
+    border-top-left-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.yt-uix-button-subscribe-branded .yt-uix-button-content {
+    color: #333;
+    text-shadow: 0 1px 0 #fff;
+    font-weight: bold;
+}
+
+.yt-subscription-button-subscriber-count-branded-horizontal::before,
+.yt-subscription-button-subscriber-count-unbranded-horizontal::before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: -7px;
+    border-width: 6px 6px 6px 0;
+    border-style: solid;
+}
+
+.yt-subscription-button-subscriber-count-branded-horizontal::before {
+    margin-top: 2px;
+    border-color: transparent #ccc;
+    margin-left: 1px;
+}
+
+.yt-uix-button-subscribe-branded::before {
+    border: 1px solid #880904 !important;
+    background-color: #a9382e !important;
+}
+
+.yt-subscription-button-subscriber-count-branded-horizontal::after,
+.yt-subscription-button-subscriber-count-unbranded-horizontal::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: -6px;
+    border-width: 5px 5px 5px 0;
+    border-style: solid;
+    border-color: transparent #fafafa;
+    margin-left: 1px;
+}
+
+.yt-subscription-button-subscriber-count-branded-horizontal,
+.yt-subscription-button-subscriber-count-branded-vertical {
+    padding: 0 6px;
+    height: 22px;
+    border: 1px solid #ccc !important;
+    color: #777;
+    font-size: 11px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.yt-subscription-button-subscriber-count-branded-horizontal::after {
+    margin-top: 2px;
+}
+
+.yt-uix-button-subscribe-branded {
+    border: 1px solid #ccc !important;
+    background-image: linear-gradient(to bottom, #fff 0, #e0e0e0 100%) !important;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.subscribe-label,
+.subscribed-label,
+.unsubscribe-label,
+.unavailable-label,
+.yt-uix-button-subscribed-branded.hover-enabled:hover .subscribed-label,
+.yt-uix-button-subscribed-unbranded.hover-enabled:hover .subscribed-label {
+    display: block;
+    line-height: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+    *zoom: 1;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+}
+
+.watch-title {
+    font-weight: bold;
+}
+@media only screen and (min-width: 0px) and (max-width:498px), only screen and (min-width:499px) and (max-width:704px), {
+    #page.watch .content-alignment {
+        margin-left: 225px;
+    }
+}
+
+.yt-uix-button-subscribe-branded::before {
+    background: no-repeat url(http://web.archive.org/web/20130605210109im_/https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflxq3CR8.png) 4px 4px;
+    background-size: auto;
+    width: 24px;
+    height: 20px;
+    margin-left: -6px;
+}
+
+#watch-header .yt-user-info a {
+    color: #333;
+    font-weight: bold;
+}
+
+#yt-masthead-creation-button {
+    height: 27px;
+    line-height: 27px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+    border-color: #d3d3d3;
+    background-color: #f8f8f8;
+    background-image: linear-gradient(to bottom, #fcfcfc 0, #f8f8f8 100%);
+    width: 64px;
+    margin: 0 16px 2px 0;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+}
+
+#yt-masthead-creation-button::before {
+    opacity: 1;
+    height: 28px;
+}
+
+#guide-container .guide-item.guide-item-selected {
+    font-weight: bold;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+#masthead-search .search-btn-component .yt-uix-button-content {
+    border: none;
+    display: block;
+    opacity: .6;
+    padding: 0;
+    text-indent: -10000px;
+    background: no-repeat url(http://web.archive.org/web/20130606001029im_/http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflxq3CR8.png) -90px -504px;
+    background-size: auto;
+    width: 15px;
+    height: 15px;
+    box-shadow: none;
+}
+
+#yt-masthead-container {
+    overflow: hidden;
+    background: #f1f1f1;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+body {
+    background: #fff;
+}
+
+body,
+input,
+button,
+textarea {
+    font-family: arial, sans-serif;
+}
+
+body #footer-container {
+    margin-top: -141px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e2e2e2;
+}
+
+#page.watch .content-alignment {
+    margin-left: 225px;
+}
+
+.yt-lockup-title a,
+.yt-lockup-description a {
+    color: #2793e6;
+    font-weight: bold;
+}
+}
+
+@-moz-document url-prefix("http://example.com") {
+#watch7-content {
+    width: 640px
+}
+#page.watch .content-alignment {
+    max-width: 1066px;
+    margin-left: 225px;
+    margin-right: auto;
+}
+
+.player-width {
+    width: 640px;
+}
+
+.player-height {
+    height: 360px;
+}
+
+#watch7-sidebar {
+    margin-left: 650px;
+    top: 0;
+}
+
+.ytp-exp-bottom-control-flexbox .ytp-chrome-controls {
+    display: block;
+}
+
+.html5-video-player .video-click-tracking,
+.html5-video-player .video-stream {
+    display: block;
+    position: absolute;
+    width: 640px !important;
+    height: 360px !important;
+}
+
+.ytp-chrome-bottom {
+    width: 616px !important;
+    left: 12px !important;
+}
+
+.ytp-chapter-hover-container {
+    width: 616px !important;
+}
+}
