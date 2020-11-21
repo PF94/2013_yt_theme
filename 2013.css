@@ -11,6 +11,17 @@
 .exp-invert-logo .guide-item.guide-item-selected .yt-deemphasized-text,
 .exp-invert-logo .guide-item.guide-item-selected:hover .yt-deemphasized-text {
     background: #af2b26;
+    background-image: linear-gradient(to bottom, #af2b26 0, #942422 100%);
+    font-size: 11px;
+}
+
+.yt-valign-container {
+    font-size: 11px;
+}
+
+.guide-item,
+.guide-header-item {
+    color: #555;
 }
 
 .exp-invert-logo #header::before,
@@ -24,6 +35,93 @@
     background-size: auto;
     width: 72px;
     height: 30px;
+}
+
+.comment-section-header-renderer {
+    text-transform: none;
+    font-size: 11px;
+    color: #555;
+}
+
+.guide-item,
+.guide-view-more {
+    height: 26px;
+}
+
+.like-button-renderer-like-button.yt-uix-button:active::before,
+.like-button-renderer-like-button.yt-uix-button.yt-uix-button-toggled::before {
+    background: no-repeat url(http://web.archive.org/web/20130605212512im_/http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflxq3CR8.png) -40px -628px;
+    background-size: auto;
+    width: 13px;
+    height: 13px;
+}
+
+#comment-section-renderer .sprite-like::before {
+    background: no-repeat url(http://web.archive.org/web/20130605212512im_/http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflxq3CR8.png) 0 -388px;
+    width: 16px;
+    height: 16px;
+}
+
+
+.yt-uix-button.yt-uix-button-subscribe-branded,
+.yt-uix-button.yt-uix-button-subscribed-branded {
+    border: 1px solid #e1e1e1;
+    background: #fff;
+}
+
+.subscribed-label {
+    font-weight: bold;
+    color: #949494 !important;
+}
+
+.comment-renderer-text-content {
+    max-height: max-content;
+    overflow: hidden;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.comment-text-toggle {
+    display: none;
+}
+
+#comment-section-renderer .sprite-dislike::before {
+    background: no-repeat url(http://web.archive.org/web/20130605212512im_/http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflxq3CR8.png) -31px -307px;
+    width: 16px;
+    height: 16px;
+}
+
+.yt-uix-button-subscribed-branded + .yt-uix-subscription-preferences-button {
+    display: none;
+}
+
+.yt-uix-button-subscribed-branded::before {
+    background: no-repeat url(http://web.archive.org/web/20130605212512im_/http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflxq3CR8.png) -150px -50px;
+    background-size: auto;
+    background-size: auto;
+    width: 11px;
+    height: 8px;
+}
+
+.comment-renderer-like-count {
+    color: #090 !important;
+    white-space: nowrap;
+    font-size: 11px;
+    margin-left: 13px;
+}
+
+.comment-renderer-footer {
+    font-size: 11px;
+}
+
+.comment-simplebox-arrow {
+    display: none;
+}
+
+.comment-section-header-renderer b {
+    font-weight: bold;
 }
 
 .yt-subscription-button-subscriber-count-branded-horizontal,
@@ -151,20 +249,34 @@
 }
 
 #yt-masthead #logo-container span.content-region {
-display: none;
+    display: none;
 }
 
-a.yt-uix-button.yt-uix-button-epic-nav-item, button.yt-uix-button-epic-nav-item, .epic-nav-item {
+a.yt-uix-button.yt-uix-button-epic-nav-item,
+button.yt-uix-button-epic-nav-item,
+.epic-nav-item {
     color: #9c9c9c;
     font-size: 11px !important;
     font-weight: bold;
 }
 
 #masthead-appbar {
-display: none;
+    display: none;
 }
 
-.exp-invert-logo a.yt-uix-button-epic-nav-item:hover, .exp-invert-logo a.yt-uix-button-epic-nav-item.selected, .exp-invert-logo a.yt-uix-button-epic-nav-item.yt-uix-button-toggled, .exp-invert-logo a.yt-uix-button-epic-nav-item.partially-selected, .exp-invert-logo a.yt-uix-button-epic-nav-item.partially-selected:hover, .exp-invert-logo button.yt-uix-button-epic-nav-item:hover, .exp-invert-logo button.yt-uix-button-epic-nav-item.selected, .exp-invert-logo button.yt-uix-button-epic-nav-item.yt-uix-button-toggled, .exp-invert-logo .epic-nav-item:hover, .exp-invert-logo .epic-nav-item.selected, .exp-invert-logo .epic-nav-item.yt-uix-button-toggled, .exp-invert-logo .epic-nav-item-heading, .exp-invert-logo .yt-gb-shelf-item-thumbtab.yt-gb-selected-shelf-tab::before {
+.exp-invert-logo a.yt-uix-button-epic-nav-item:hover,
+.exp-invert-logo a.yt-uix-button-epic-nav-item.selected,
+.exp-invert-logo a.yt-uix-button-epic-nav-item.yt-uix-button-toggled,
+.exp-invert-logo a.yt-uix-button-epic-nav-item.partially-selected,
+.exp-invert-logo a.yt-uix-button-epic-nav-item.partially-selected:hover,
+.exp-invert-logo button.yt-uix-button-epic-nav-item:hover,
+.exp-invert-logo button.yt-uix-button-epic-nav-item.selected,
+.exp-invert-logo button.yt-uix-button-epic-nav-item.yt-uix-button-toggled,
+.exp-invert-logo .epic-nav-item:hover,
+.exp-invert-logo .epic-nav-item.selected,
+.exp-invert-logo .epic-nav-item.yt-uix-button-toggled,
+.exp-invert-logo .epic-nav-item-heading,
+.exp-invert-logo .yt-gb-shelf-item-thumbtab.yt-gb-selected-shelf-tab::before {
     border-color: #b00;
 }
 
@@ -173,10 +285,10 @@ display: none;
     height: 100px;
     *border: 1px solid #ddd;
     background-color: #e9ecee;
-    -moz-box-shadow: 0 1px 8px rgba(0,0,0,.4);
-    -ms-box-shadow: 0 1px 8px rgba(0,0,0,.4);
-    -webkit-box-shadow: 0 1px 8px rgba(0,0,0,.4);
-    box-shadow: 0 1px 8px rgba(0,0,0,.4);
+    -moz-box-shadow: 0 1px 8px rgba(0, 0, 0, .4);
+    -ms-box-shadow: 0 1px 8px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, .4);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, .4);
 }
 
 #appbar-guide-button {
@@ -331,10 +443,9 @@ body #footer-container {
     max-width: 555px;
 }
 
-#page.watch .content-alignment {
+/*#page.watch .content-alignment {
     margin-left: 225px;
-}
-
+}*/
 .yt-lockup-title a,
 .yt-lockup-description a {
     color: #2793e6;
