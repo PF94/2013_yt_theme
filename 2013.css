@@ -242,9 +242,15 @@ body #footer-container {
     color: #2793e6;
     font-weight: bold;
 }
+
+.video-list .video-list-item .title {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
 }
 
-@-moz-document url-prefix("http://example.com") {
+/* ASS BROKEN SHIT */
+
 #watch7-content {
     width: 640px
 }
