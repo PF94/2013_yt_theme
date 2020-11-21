@@ -1,5 +1,5 @@
-# 2013 YouTube on Pre-Material YouTube
-![A screenshot](https://cdn.discordapp.com/attachments/752664050474811392/779614117932826624/unknown.png)
+# 2013 YouTube Theme for Pre-Material YouTube
+![A screenshot](https://cdn.discordapp.com/attachments/777290532170760232/779817396977926174/unknown.png)
 
 # Required
 Chrome: https://chrome.google.com/webstore/detail/good-old-youtube/klkejolkjcefmocpgpjiefbpmgofahmh?hl=en
