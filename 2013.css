@@ -302,7 +302,8 @@ button.yt-uix-button-epic-nav-item,
 .watch-title {
     font-weight: bold;
 }
-@media only screen and (min-width: 0px) and (max-width:498px), only screen and (min-width:499px) and (max-width:704px), {
+@media only screen and (min-width: 0px) and (max-width:498px), only screen and (min-width:499px) and (max-width:704px),
+{
     #page.watch .content-alignment {
         margin-left: 225px;
     }
