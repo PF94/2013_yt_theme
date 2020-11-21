@@ -459,9 +459,9 @@ body #footer-container {
     font-weight: bold;
 }
 
-.ytp-gradient-bottom {
+/*.ytp-gradient-bottom {
     background: #1b1b1b;
-}
+}*/
 
 .ytp-swatch-background-color {
     background-color: #cc181e;
@@ -486,10 +486,10 @@ body #footer-container {
     background: #444;
 }
 
-.ytp-exp-bigger-button .ytp-gradient-bottom {
+/*.ytp-exp-bigger-button .ytp-gradient-bottom {
     height: 0px;
     padding-top: 44px;
-}
+}*/
 }
 
 @-moz-document url-prefix("insert.shitty.domain.here") {
